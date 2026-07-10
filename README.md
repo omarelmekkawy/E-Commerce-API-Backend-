@@ -4,10 +4,18 @@ A RESTful E-Commerce Backend API built with Node.js, Express.js, MongoDB, and Mo
 
 ---
 
+## GitHub Repository
+
+You can find the complete source code for this project here:
+
+**Repository:**  
+https://github.com/omarelmekkawy/E-Commerce-API-Backend-
+
+---
+
 ## Features
 
 ### Category Management
-
 - Create category
 - Get all categories
 - Get category by ID
@@ -15,7 +23,6 @@ A RESTful E-Commerce Backend API built with Node.js, Express.js, MongoDB, and Mo
 - Delete category
 
 ### Product Management
-
 - Create product
 - Get all products
 - Get product by ID
@@ -26,7 +33,6 @@ A RESTful E-Commerce Backend API built with Node.js, Express.js, MongoDB, and Mo
 - Filter by stock availability
 
 ### Shopping Cart
-
 - Add products to cart
 - Update product quantity
 - Remove products
@@ -34,7 +40,6 @@ A RESTful E-Commerce Backend API built with Node.js, Express.js, MongoDB, and Mo
 - Calculate total price automatically
 
 ### Order Management
-
 - Checkout from cart
 - Validate stock before checkout
 - Reduce product stock after successful checkout
@@ -45,7 +50,6 @@ A RESTful E-Commerce Backend API built with Node.js, Express.js, MongoDB, and Mo
 - Get order by ID
 
 ### Additional Features
-
 - Global error handling
 - MongoDB validation
 - Request sanitization
@@ -213,17 +217,10 @@ project
 The API was tested using Postman.
 
 The Postman collection includes:
-
 - Categories API
 - Products API
 - Cart API
 - Orders API
 
-The project also includes a Postman Environment for testing with reusable variables such as:
 
-- `baseUrl`
-- `categoryId`
-- `productId`
-- `orderId`
-
-The exported Postman Collection and Environment are included with the project.
+The exported Postman Collection is included with the project.
